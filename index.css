@@ -1,0 +1,53 @@
+html {
+    min-height: 100%;
+}
+body{
+    height: 100%;
+    margin:0;
+    padding: 0;
+    background: linear-gradient(45deg, rgba(230,5,201,1) 0%, rgba(195,36,199,1) 28%, rgba(0,212,255,1) 100%);
+
+    color:white;
+}
+
+#header{
+    font-size: 4em;
+    width: fit-content;
+    margin:40px auto;
+}
+
+#inputField{
+    display: flex;
+    width: 400px;
+    height: 50px;
+    margin:auto;
+
+}
+#inputField input, #inputField button{
+    border:2px solid black;
+    border-radius: 10px;
+
+}
+#inputField button{
+    width: 30%;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left: none;
+
+    background-color:rgba(230,5,201,1);
+    color:white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+#inputField input{
+    width: 70%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: none;
+
+    padding-left: 10px;
+    outline:none;
+}
+#inputField button:hover{
+    background-color: rgba(195,36,199,1);
+}

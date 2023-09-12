@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "index.css">
     <title></title>
-    <script src = "main.js"></script>
 </head>
-<body onload = "loadItems">
-    <input type="text" placeholder="Enter items" id = "itemName">
-    <button id = "submitBtn">Submit</button>
+<body onload = "loadItems()">
+    <h1 id = "header">Grocery list</h1>
+    <div id = "inputField">
+        <input type="text" placeholder="Enter items" id = "itemName">
+        <button id = "submitBtn">Submit</button>
+    </div>
+    <div id = "itemsGrid">
+
+    </div>
+
+    <script src = "main.js"></script>
+
 </body>
 </html>
